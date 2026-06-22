@@ -1,0 +1,15 @@
+import pygame
+
+WHITE = (255, 255, 255)
+DARK_GREY = (30, 30, 30)
+GREEN = (34, 177, 76)
+RED = (237, 28, 36)
+BLUE = (0, 162, 232)
+YELLOW = (255, 242, 0)
+PURPLE = (163, 73, 164)
+BROWN = (128, 64, 0)
+SAND = (239, 228, 176)
+
+WIDTH, HEIGHT = 1000, 700
+GRID_SIZE = 40
+COLS, ROWS = 25, 15  
