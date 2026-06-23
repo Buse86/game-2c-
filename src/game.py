@@ -15,7 +15,7 @@ class GameApp:
         cfg.rows = (cfg.HEIGHT - cfg.HUD_HEIGHT) // cfg.GRID_SIZE
 
         self.screen = pygame.display.set_mode((cfg.WIDTH, cfg.HEIGHT), pygame.RESIZABLE)
-        pygame.display.set_caption("SOLID Dynamic Tower Defense")
+        pygame.display.set_caption("Tower Defense by Dembitsky")
 
         self.renderer = GameRenderer()
         self.input_handler = InputHandler(self)
